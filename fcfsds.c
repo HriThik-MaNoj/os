@@ -11,7 +11,7 @@ void main(){
 	printf("Enter the number of elements in the queue : ");
 	scanf("%d",&n);
 	printf("Enter the queue : ");
-	for(i = 0; i < n; i++){
+	for(i = 1; i < n; i++){
 	
 		scanf("%d",&queue[i]);
 	}
