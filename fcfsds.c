@@ -19,7 +19,7 @@ void main(){
 	scanf("%d",&head);
 	queue[0] = head;
 	
-	for(i = 0; i < n-1; i++){
+	for(i = 0; i < n; i++){
 	
 		diff = abs(queue[i+1] - queue[i]);
 		seek += diff;
